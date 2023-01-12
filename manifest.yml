@@ -1,0 +1,16 @@
+modules:
+  jira:projectPage:
+    - key: jira-metrika-app-hello-world-project-page
+      function: main
+      title: jira-metrika-app
+      icon: https://emoji.slack-edge.com/T04JVG8N6/8a/6325f5a801da3606.png
+
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/d2f8c273-71dc-4b4c-a7a3-b9aa375e6b8b
+  name: jira-metrika
+permissions:
+  scopes:
+    - read:jira-work
